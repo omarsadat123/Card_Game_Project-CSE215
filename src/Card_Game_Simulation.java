@@ -88,6 +88,7 @@ public class Card_Game_Simulation  {
     	frame = new JFrame("Card Game");
         frame.setBounds(100, 100, 864, 704);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
      	frame.setSize(1041,800);
      	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      	frame.setLayout(null);
